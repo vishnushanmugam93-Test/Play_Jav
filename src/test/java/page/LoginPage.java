@@ -71,7 +71,7 @@ public class LoginPage {
 
         // Verify created
         // The application displays "Your Account Has Been Created!" on success — assert that text is present
-        PlaywrightAssertions.assertThat(page.getByText("Your Account Has Been Created!", new Page.GetByTextOptions().setExact(true))).containsText("Your Account Has Not Been Created!");
+        PlaywrightAssertions.assertThat(page.getByText("Your Account Has Been Created!", new Page.GetByTextOptions().setExact(true))).containsText("Your Account Has Been Created!");
 
         // Continue to account using the reusable link locator
         continueLink.click();
