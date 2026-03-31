@@ -22,11 +22,10 @@ jobs:
       - name: Run tests
         run: mvn test
 
-      - name: Upload TestNG/Surefire Report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-report
-          path: |
-            target/surefire-reports/
-            target/test-output/
+      - name: Upload test report artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: playwright-report # Name of the artifact
+        path: ExtentReport/Reports # Path to your generated report directory
+        if-no-files-found: error
+        retention-days: 5
