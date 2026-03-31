@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-31T13:27:01 IST" name="Test Suite" finished-at="2026-03-31T13:27:37 IST" duration-ms="35972">
+  <suite started-at="2026-03-31T13:55:05 IST" name="Test Suite" finished-at="2026-03-31T13:55:42 IST" duration-ms="36545">
     <groups>
     </groups>
-    <test started-at="2026-03-31T13:27:01 IST" name="Test" finished-at="2026-03-31T13:27:37 IST" duration-ms="35972">
+    <test started-at="2026-03-31T13:55:05 IST" name="Test" finished-at="2026-03-31T13:55:42 IST" duration-ms="36545">
       <class name="test.First">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:test.First@1d2adfbe]" started-at="2026-03-31T13:27:01 IST" name="setup" finished-at="2026-03-31T13:27:18 IST" duration-ms="16168" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:test.First@36bc55de]" started-at="2026-03-31T13:55:05 IST" name="setup" finished-at="2026-03-31T13:55:23 IST" duration-ms="17297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:test.First@1d2adfbe]" started-at="2026-03-31T13:27:18 IST" name="test" description="Register a new account using the LoginPage POM" finished-at="2026-03-31T13:27:36 IST" duration-ms="18477" status="PASS">
+        <test-method signature="test()[pri:0, instance:test.First@36bc55de]" started-at="2026-03-31T13:55:23 IST" name="test" description="Register a new account using the LoginPage POM" finished-at="2026-03-31T13:55:41 IST" duration-ms="18611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDownReport(org.testng.ITestResult)[pri:0, instance:test.First@1d2adfbe]" started-at="2026-03-31T13:27:36 IST" name="tearDownReport" finished-at="2026-03-31T13:27:37 IST" duration-ms="1258" status="PASS">
+        <test-method is-config="true" signature="tearDownReport(org.testng.ITestResult)[pri:0, instance:test.First@36bc55de]" started-at="2026-03-31T13:55:41 IST" name="tearDownReport" finished-at="2026-03-31T13:55:42 IST" duration-ms="573" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test status=SUCCESS method=First.test()[pri:0, instance:test.First@1d2adfbe] output={null}]]]>
+                <![CDATA[[TestResult name=test status=SUCCESS method=First.test()[pri:0, instance:test.First@36bc55de] output={null}]]]>
               </value>
             </param>
           </params>
