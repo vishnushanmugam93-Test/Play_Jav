@@ -6,7 +6,7 @@
       <class name="test.First">
         <methods>
           <include name="setup"/>
-          <include name="test"/>
+          <include name="test2"/>
           <include name="tearDownReport"/>
         </methods>
       </class> <!-- test.First -->

@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import com.microsoft.playwright.*;
 
 import base.BaseTest;
+import page.HomePage;
 import page.LoginPage;
 
 
@@ -26,4 +27,13 @@ public class First extends BaseTest {
       test.info("Asserting that the page title is correct");
       System.out.println("page.title = " + page.title());
     }
+    
+    @Test(description = "Search for a product using the HomePage POM", dependsOnMethods = {"test"})
+    public void test2() {
+		HomePage home = new HomePage(page);
+		home.searchProduct("iPhone");
+		LoginPage login = new LoginPage(page);
+		login.navigateToHome();
+		home.searchProduct("MacBook");
+	}
 }
